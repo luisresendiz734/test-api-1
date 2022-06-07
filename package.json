@@ -1,0 +1,27 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "description": "Prueba para crear una api-rest",
+  "main": "index.js",
+  "repository": "https://github.com/luisresendiz734/test-api-1.git",
+  "author": "Luis Resendiz",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.20.1"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node",
+    "start": "babel-node src/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "nodemon": "^2.0.16"
+  }
+}
